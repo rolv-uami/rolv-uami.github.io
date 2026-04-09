@@ -1,0 +1,26 @@
+site_name: Grupo de Investigación - ROLV
+site_url: https://rolv-uami.github.io/
+theme:
+  name: material
+  language: es
+  palette:
+    primary: indigo
+    accent: blue
+  features:
+    - navigation.tabs
+    - search.suggest
+
+nav:
+  - Inicio: index.md
+  - Equipo: equipo.md
+  - Protocolos y Equipos:
+      - Introducción: protocolos/index.md
+      - FTIR: protocolos/ftir.md
+      - DLS: protocolos/dls.md
+      - SEM/TEM: protocolos/microscopia.md
+  - Recursos y Scripts:
+      - Análisis de Datos: scripts/analisis.md
+      - Repositorio Académico: scripts/tesis.md
+  - Gestión del Laboratorio:
+      - Calendario y Reservas: gestion/calendario.md
+      - Contactos de Emergencia: gestion/emergencias.md
